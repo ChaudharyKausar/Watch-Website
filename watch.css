@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+:root{
+--head2:2.2rem;
+--head4:1.2rem;
+--para:1rem;
+--hero-color:#fff;
+--founder-color:#999999;
+}
+.conatiner1{
+    padding: 0 3rem;
+}
+.conatiner1 img{
+    width: 100%;
+    height: auto;
+}
+
+.container2 .hero{
+    position: relative;
+    background-color: var(--hero-color);
+    width: 80%;
+    margin: -8.5rem auto 0;
+    padding: 3rem 3rem 1.5rem;
+    z-index: 10;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.hero .head2{
+    font-size: var(--head2);
+    color: #222;
+    font-weight: 600;
+}
+.hero .head4{
+    font-size: var(--head4);
+    color: #3c3a3a;
+    text-align: center;
+    margin: 10px 0;
+}
+.hero .para{
+font-size: var(--para);
+color: var(--founder-color);
+text-align: center;
+margin: 10px 0;
+}
+
+.container3{
+    margin-top: 3rem;
+    padding: 2rem 4rem;
+}
+.container3 .watch-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+.card1 .para{
+    font-size: var(--head4);
+    margin-top: 12px;
+}
+.card1 .para span{
+    color: #504949;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+.card1 .founder span{
+    color: var(--founder-color);
+    font-weight: 400;
+    text-transform: none;
+    font-style: italic;
+    font-size: var(--para);
+}
+.card1 .founder{
+ color: var(--founder-color);
+ font-weight: 500;
+ font-size: var(--para);
+margin-top: 5px;
+}
+.container4 .sec1{
+    background-image: url('hoodinki.jpg');
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.sec1 image{
+    width: 100%;
+}
+.sec1{
+    padding: 5rem 4rem;
+}
+.sec1 .head2{
+font-size: var(--head2);
+color: #fff;
+text-align: center;
+}
+.sec1 .head4{
+    color: #fff;
+    font-size: var(--head4);
+    text-align: center;
+}
+.sec1 input{
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 0px 0px 0px 16px;
+    height: 36px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(180, 187, 195);
+    margin-left: 6rem;
+    border: none;
+    inline-size: none;}
+.sec1 button{
+    background: rgb(255, 255, 255);
+    border-style: none;
+    color: rgb(34, 34, 34);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 11px 10px;
+    text-align: center;
+    cursor: pointer;
+    flex-basis: 10rem;
+    margin-right: 6rem;
+}
+.input-area{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+.container5{
+    margin: 2rem 0;
+}
+.container5 .watch-section{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+row-gap: 6rem;
+column-gap: 2rem;
+    padding: 0 2rem;
+}
+.container5 .watch-section img{
+    width: 100%;
+    height: 80%;
+}
+.container5 .watch-section .card1 .desp{
+    color: #3c3a3a;
+    font-size: 1.1rem;
+    margin-top: 8px;
+}
+.container5 button{
+    width: fit-content;
+    border: 1px solid black;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: var(--hero-color);
+    padding: 1rem 3rem;
+    margin: 4rem auto;
+    font-size: var(--head4);
+    display: block;
+ }
+ .containe6 .sec1{
+    background-image: url('backgroung.jpg');
+    background-size: cover;
+ }
+ .containe6 .sec1 button{
+    width: fit-content;
+    border: 1px solid black;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: var(--hero-color);
+    padding: 1rem 3rem;
+    margin: 1rem auto;
+    font-size: var(--head4);
+    display: block;
+ }
+ .container7{
+    background-color: #222;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 2rem;
+    padding: 3rem 6rem;
+ }
+ .container7 p{
+    color: var(--hero-color);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+ }
+ .container7 ul{
+    color: var(--hero-color);
+    font-size: 1rem;
+    margin-top: 10px;
+    line-height: 1.8rem;
+ }
+ .container7 ul li{
+list-style-type:none; 
+}
+ .container7 .col2 .icon{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 10px;
+ }
+.icon i{
+    color: var(--hero-color);
+    font-size: 1.5rem;
+}
+@media screen and (max-width:975px){
+    .container5 button{
+        margin: 8rem auto 3rem;
+    }
+    :root {
+        --head2: 1.8rem;
+        --head4: 1.2rem;
+        --para: 14px;
+}
+.container3{
+    padding: 2rem 3rem;
+}
+}
+@media screen and (max-width:900px) {
+    .container2 .hero{
+        padding: 2rem 2rem 1rem;
+    }
+    :root {
+        --head2: 1.5rem;
+        --head4: 1.1rem;
+    }
+}
+@media screen and (max-width:910px) {
+.container5 .watch-section{
+    row-gap: 8rem;
+    column-gap: 1.4rem;
+}
+.container7{
+    padding: 3rem 4rem;
+}
+.container7 p{
+    font-size: 1.3rem;
+}
+}
+@media screen and (max-width:830px) {
+:root{
+    --head4:1rem;
+}
+.container3 .watch-section {
+    gap: 1.5rem;
+}
+.container3 {
+    padding: 2rem 2rem;
+}
+}
+@media screen and (max-width:700px) {
+    .container3 .watch-section {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .sec1 button {
+        width: 40%;
+        /* flex-basis: 10rem; */
+    }
+    .sec1 input{
+        width: 100%;
+    }
+    .container7 {
+        padding: 3rem 3rem;
+    }
+    .conatiner1 {
+        padding: 0 2rem;
+    }
+    .container4 .sec1 {
+        padding: 4rem 2rem;
+    }
+    .container7 p {
+        font-size: 1rem;
+    }
+    .container7 ul {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:600px) {
+    .container5 .watch-section {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 4rem;
+    }
+    .container7 {
+        grid-template-columns: auto auto auto;
+    }
+    .container7 .col2{
+        margin-top: 2rem;
+    }
+    .conatiner1 {
+        padding: 0 0rem;
+    }
+    .container4 .sec1 {
+        padding: 4rem 0rem;
+    }
+    .input-area{
+        display: grid;
+        grid-template-columns: auto
+    }
+    .sec1 input {
+        width: 70%;
+        margin-left: 4rem;
+    }
+    .sec1 button {
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:490px) {
+    :root {
+        --head4: 12px;
+        --head2: 1rem;
+    }
+    .card1 .para span {
+        font-size: 1rem;
+    }
+    .container2 .hero{
+        margin: -6rem auto 0;
+    }
+}
+@media screen and (max-width:460px) {
+    .container7 {
+        grid-template-columns: auto auto;
+        padding: 3rem 2rem;
+    }
+    .container7 .col1{
+        margin-top: 2rem;
+    }
+}
